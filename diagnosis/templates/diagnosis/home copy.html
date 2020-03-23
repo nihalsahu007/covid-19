@@ -1,0 +1,558 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+  <meta name="description" content=""/>
+  <meta name="author" content=""/>
+  <title>Covid - 19</title>
+  <!-- loader-->
+  <link href="{% static 'diagnosis/assets/css/pace.min.css'%}" rel="stylesheet"/>
+  <script src="{% static 'diagnosis/assets/js/pace.min.js'%}"></script>
+  <!--favicon-->
+  <link rel="icon" href="{% static 'diagnosis/assets/images/co.png.png'%}" type="image/x-icon">
+  <!-- simplebar CSS-->
+  <link href="{% static 'diagnosis/assets/plugins/simplebar/css/simplebar.css'%}" rel="stylesheet"/>
+  <!-- Bootstrap core CSS-->
+  <link href="{% static 'diagnosis/assets/css/bootstrap.min.css'%}" rel="stylesheet"/>
+  <!-- animate CSS-->
+  <link href="{% static 'diagnosis/assets/css/animate.css'%}" rel="stylesheet" type="text/css"/>
+  <!-- Icons CSS-->
+  <link href="{% static 'diagnosis/assets/css/icons.css'%}" rel="stylesheet" type="text/css"/>
+  <!-- Sidebar CSS-->
+  <link href="{% static 'diagnosis/assets/css/sidebar-menu.css'%}" rel="stylesheet"/>
+  <!-- Custom Style-->
+  <link href="{% static 'diagnosis/assets/css/app-style.css'%}" rel="stylesheet"/>
+
+  <link rel="icon" href="{% static 'diagnosis/assets/images/favicon.ico'%}" type="image/x-icon">
+  <!-- Vector CSS -->
+  <link href="{% static 'diagnosis/assets/plugins/vectormap/jquery-jvectormap-2.0.2.css'%}" rel="stylesheet"/>
+  <!-- simplebar CSS-->
+  <link href="{% static 'diagnosis/assets/plugins/simplebar/css/simplebar.css'%}" rel="stylesheet"/>
+  <!-- Bootstrap core CSS-->
+  <link href="{% static 'diagnosis/assets/css/bootstrap.min.css'%}" rel="stylesheet"/>
+  <!-- animate CSS-->
+  <link href="{% static 'diagnosis/assets/css/animate.css'%}" rel="stylesheet" type="text/css"/>
+  <!-- Icons CSS-->
+  <link href="{% static 'diagnosis/assets/css/icons.css'%}" rel="stylesheet" type="text/css"/>
+  <!-- Sidebar CSS-->
+  <link href="{% static 'diagnosis/assets/css/sidebar-menu.css'%}" rel="stylesheet"/>
+  <!-- Custom Style-->
+  <link href="{% static 'diagnosis/assets/css/app-style.css'%}" rel="stylesheet"/>
+  
+</head>
+
+<body class="bg-theme bg-theme2">
+
+<!-- start loader -->
+   <div id="pageloader-overlay" class="visible incoming"><div class="loader-wrapper-outer"><div class="loader-wrapper-inner" ><div class="loader"></div></div></div></div>
+   <!-- end loader -->
+
+<!-- Start wrapper-->
+<div id="wrapper">
+ 
+  <!--Start sidebar-wrapper-->
+   <div id="sidebar-wrapper" data-simplebar="" data-simplebar-auto-hide="true">
+     <div class="brand-logo">
+      <a >
+       
+       <h5 class="logo-text">Covid-19 Guidlines</h5>
+     </a>
+   </div>
+   <ul class="sidebar-menu do-nicescrol">
+      <li class="sidebar-header">Precautions</li>
+      
+
+      <li>
+        <a>
+          <i class="zmdi zmdi-invert-colors text-info"></i> <span>Wash hands regularly</span>
+        </a>
+      </li>
+      <li>
+        <a>
+          <i class="zmdi zmdi-face"></i> <span>Avoid touching face</span>
+        </a>
+      </li>
+
+      <li>
+        <a >
+          <i class="zmdi zmdi-lock"></i> <span>Stay at home</span>
+        </a>
+      </li>
+
+       <li>
+        <a >
+          <i class="zmdi zmdi-account-circle"></i> <span>Maintain distance</span>
+        </a>
+      </li>
+
+      <li>
+        <a >
+          <i class="zmdi zmdi-airplane-off"></i> <span>Avoid Travelling</span>
+          <small class="badge float-right badge-light">New</small>
+        </a>
+      </li>
+
+      <li>
+        <a >
+          <i class="zmdi zmdi-block-alt text-danger"></i> <span>No Smoking</span>
+        </a>
+      </li>
+
+
+      
+
+     	  
+	  <li>
+        <a >
+          <i class="zmdi zmdi-cloud-upload"></i> <span>Stay Updated</span>
+        </a>
+      </li>
+
+      <li class="sidebar-header">Responsibilities</li>
+      <li><a href="javaScript:void();"><i class="zmdi zmdi-share text-info"></i> <span>Share Information</span></a></li>
+      <li><a href="javaScript:void();"><i class="zmdi zmdi-coffee"></i> <span>Stay Safe</span></a></li>
+      <li><a href="javaScript:void();"><i class="zmdi zmdi-mood text-success"></i> <span>Be Positive</span></a></li>
+      
+
+    </ul>
+   
+   </div>
+   <!--End sidebar-wrapper-->
+
+
+<!--Start topbar header-->
+<header class="topbar-nav">
+ <nav class="navbar navbar-expand fixed-top">
+  <ul class="navbar-nav mr-auto align-items-center">
+    <li class="nav-item">
+      <a class="nav-link toggle-menu" href="javascript:void();">
+       <i class="icon-menu menu-icon"></i>
+     </a>
+    </li>
+    
+  </ul>
+     
+  <ul class="navbar-nav align-items-center right-nav-link">
+   
+    <li class="nav-item">
+      <a class="nav-link dropdown-toggle dropdown-toggle-nocaret" data-toggle="dropdown" href="#">
+        <span class="user-profile"><img src="{% static 'diagnosis/assets/images/co.png.png'%}" class="img-circle" alt="user avatar"></span>
+      </a>
+      
+    </li>
+  </ul>
+</nav>
+</header>
+<!--End topbar header-->
+
+<div class="clearfix"></div>
+	
+  <div class="content-wrapper">
+    <div class="container-fluid">
+
+
+
+
+
+
+
+
+      <div class="row mt-3">
+        <div class="col-lg-4">
+           <div class="card profile-card-2">
+            <div class="card-img-block">
+                <img class="img-fluid" src="{% static 'diagnosis/assets/images/precaution.jpg'%}" alt="Card image cap">
+            </div>
+            <div class="card-body pt-5">
+                <img src="{% static 'diagnosis/assets/images/co.png.png'%}" alt="profile-image" class="profile">
+                <h5 class="card-title">Mask Stern</h5>
+                <p class="card-text">We a team of Indian Engineers, trying to build a MACHINE LEANING predictive model to identify COVID-19 symptoms. We require your genuine support.</p>
+                <div class="icon-block">
+                  <a href="javascript:void();"><i class="zmdi zmdi-account-box-mail"></i>Fill basic details</a><br>
+				  <a href="javascript:void();"> <i class="zmdi zmdi-assignment-alert text-danger"></i>Test symptoms</a><br>
+          <a href="javascript:void();"> <i class="zmdi zmdi-assignment-check text-info"></i>View report</a><br>
+          <a href="javascript:void();"> <i class="zmdi zmdi-whatsapp text-success"></i>Share it with all</a>
+                </div>
+            </div>
+
+            
+        </div>
+
+        </div>
+
+        <div class="col-lg-8">
+           <div class="card">
+            <div class="card-body">
+            <ul class="nav nav-tabs nav-tabs-primary top-icon nav-justified">
+                <li class="nav-item">
+                    <a href="javascript:void();" data-target="#edit" data-toggle="pill" class="nav-link active"><i class="icon-note"></i> <span class="hidden-xs">Test Yourself</span></a>
+                </li>
+                <li class="nav-item">
+                    <a href="javascript:void();" data-target="#profile" data-toggle="pill" class="nav-link"><i class="icon-user"></i> <span class="hidden-xs">Profile</span></a>
+                </li>
+                <li class="nav-item">
+                    <a href="javascript:void();" data-target="#messages" data-toggle="pill" class="nav-link"><i class="icon-envelope-open"></i> <span class="hidden-xs">Messages</span></a>
+                </li>
+                
+            </ul>
+            <div class="tab-content p-3">
+              <div class="tab-pane active" id="edit">
+                    <form action="post">
+                        <div class="form-group row">
+                            <label class="col-lg-3 col-form-label form-control-label">Full name</label>
+                            <div class="col-lg-9">
+                                <input class="form-control" type="text" required>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label class="col-lg-3 col-form-label form-control-label">Mobile number</label>
+                            <div class="col-lg-9">
+                                <input class="form-control" type="number" >
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label class="col-lg-3 col-form-label form-control-label">Email</label>
+                            <div class="col-lg-9">
+                                <input class="form-control" type="email" >
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label class="col-lg-3 col-form-label form-control-label">Age</label>
+                            <div class="col-lg-9">
+                                <input class="form-control" type="number">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label class="col-lg-3 col-form-label form-control-label">Website</label>
+                            <div class="col-lg-9">
+                                <input class="form-control" type="url" value="">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label class="col-lg-3 col-form-label form-control-label">Address</label>
+                            <div class="col-lg-9">
+                                <input class="form-control" type="text" value="" placeholder="Street">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label class="col-lg-3 col-form-label form-control-label"></label>
+                            <div class="col-lg-6">
+                                <input class="form-control" type="text" value="" placeholder="City">
+                            </div>
+                            <div class="col-lg-3">
+                                <input class="form-control" type="text" value="" placeholder="State">
+                            </div>
+                        </div>
+                       
+                        <div class="form-group row">
+                            <label class="col-lg-3 col-form-label form-control-label">Username</label>
+                            <div class="col-lg-9">
+                                <input class="form-control" type="text" value="jhonsanmark">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label class="col-lg-3 col-form-label form-control-label">Password</label>
+                            <div class="col-lg-9">
+                                <input class="form-control" type="password" value="11111122333">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label class="col-lg-3 col-form-label form-control-label">Confirm password</label>
+                            <div class="col-lg-9">
+                                <input class="form-control" type="password" value="11111122333">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label class="col-lg-3 col-form-label form-control-label"></label>
+                            <div class="col-lg-9">
+                                <input type="reset" class="btn btn-secondary" value="Cancel">
+                                <input type="button" class="btn btn-primary" value="Save Changes">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="tab-pane " id="profile">
+                    <h5 class="mb-3">User Profile</h5>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h6>About</h6>
+                            <p>
+                                Web Designer, UI/UX Engineer
+                            </p>
+                            <h6>Hobbies</h6>
+                            <p>
+                                Indie music, skiing and hiking. I love the great outdoors.
+                            </p>
+                        </div>
+                        <div class="col-md-6">
+                            <h6>Recent badges</h6>
+                            <a href="javascript:void();" class="badge badge-dark badge-pill">html5</a>
+                            <a href="javascript:void();" class="badge badge-dark badge-pill">react</a>
+                            <a href="javascript:void();" class="badge badge-dark badge-pill">codeply</a>
+                            <a href="javascript:void();" class="badge badge-dark badge-pill">angularjs</a>
+                            <a href="javascript:void();" class="badge badge-dark badge-pill">css3</a>
+                            <a href="javascript:void();" class="badge badge-dark badge-pill">jquery</a>
+                            <a href="javascript:void();" class="badge badge-dark badge-pill">bootstrap</a>
+                            <a href="javascript:void();" class="badge badge-dark badge-pill">responsive-design</a>
+                            <hr>
+                            <span class="badge badge-primary"><i class="fa fa-user"></i> 900 Followers</span>
+                            <span class="badge badge-success"><i class="fa fa-cog"></i> 43 Forks</span>
+                            <span class="badge badge-danger"><i class="fa fa-eye"></i> 245 Views</span>
+                        </div>
+                        <div class="col-md-12">
+                            <h5 class="mt-2 mb-3"><span class="fa fa-clock-o ion-clock float-right"></span> Recent Activity</h5>
+                             <div class="table-responsive">
+                            <table class="table table-hover table-striped">
+                                <tbody>                                    
+                                    <tr>
+                                        <td>
+                                            <strong>Abby</strong> joined ACME Project Team in <strong>`Collaboration`</strong>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <strong>Gary</strong> deleted My Board1 in <strong>`Discussions`</strong>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <strong>Kensington</strong> deleted MyBoard3 in <strong>`Discussions`</strong>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <strong>John</strong> deleted My Board1 in <strong>`Discussions`</strong>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <strong>Skell</strong> deleted his post Look at Why this is.. in <strong>`Discussions`</strong>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                          </div>
+                        </div>
+                    </div>
+                    <!--/row-->
+                </div>
+                <div class="tab-pane" id="messages">
+                    <div class="alert alert-info alert-dismissible" role="alert">
+				   <button type="button" class="close" data-dismiss="alert">&times;</button>
+				    <div class="alert-icon">
+					 <i class="icon-info"></i>
+				    </div>
+				    <div class="alert-message">
+				      <span><strong>Info!</strong> Lorem Ipsum is simply dummy text.</span>
+				    </div>
+                  </div>
+                  <div class="table-responsive">
+                    <table class="table table-hover table-striped">
+                        <tbody>                                    
+                            <tr>
+                                <td>
+                                   <span class="float-right font-weight-bold">3 hrs ago</span> Here is your a link to the latest summary report from the..
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                   <span class="float-right font-weight-bold">Yesterday</span> There has been a request on your account since that was..
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                   <span class="float-right font-weight-bold">9/10</span> Porttitor vitae ultrices quis, dapibus id dolor. Morbi venenatis lacinia rhoncus. 
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                   <span class="float-right font-weight-bold">9/4</span> Vestibulum tincidunt ullamcorper eros eget luctus. 
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                   <span class="float-right font-weight-bold">9/4</span> Maxamillion ais the fix for tibulum tincidunt ullamcorper eros. 
+                                </td>
+                            </tr>
+                        </tbody> 
+                    </table>
+                  </div>
+                </div>
+                
+            </div>
+        </div>
+        </div>
+
+        </div>
+        </div>
+<!---------------------------------------------------------------------------------->
+
+<div class="row">
+     <div class="col-12 col-lg-8 col-xl-8">
+      <div class="card">
+       <div class="card-header">Site Traffic
+         <div class="card-action">
+         <div class="dropdown">
+         <a href="javascript:void();" class="dropdown-toggle dropdown-toggle-nocaret" data-toggle="dropdown">
+          <i class="icon-options"></i>
+         </a>
+          <div class="dropdown-menu dropdown-menu-right">
+          <a class="dropdown-item" href="javascript:void();">Action</a>
+          <a class="dropdown-item" href="javascript:void();">Another action</a>
+          <a class="dropdown-item" href="javascript:void();">Something else here</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="javascript:void();">Separated link</a>
+           </div>
+          </div>
+         </div>
+       </div>
+     <div class="card-body">
+        <ul class="list-inline">
+        <li class="list-inline-item"><i class="fa fa-circle mr-2 text-white"></i>New Visitor</li>
+        <li class="list-inline-item"><i class="fa fa-circle mr-2 text-light"></i>Old Visitor</li>
+      </ul>
+      <div class="chart-container-1">
+        <canvas id="chart1"></canvas>
+      </div>
+     </div>
+     
+     <div class="row m-0 row-group text-center border-top border-light-3">
+       <div class="col-12 col-lg-4">
+         <div class="p-3">
+           <h5 class="mb-0">45.87M</h5>
+         <small class="mb-0">Overall Visitor <span> <i class="fa fa-arrow-up"></i> 2.43%</span></small>
+         </div>
+       </div>
+       <div class="col-12 col-lg-4">
+         <div class="p-3">
+           <h5 class="mb-0">15:48</h5>
+         <small class="mb-0">Visitor Duration <span> <i class="fa fa-arrow-up"></i> 12.65%</span></small>
+         </div>
+       </div>
+       <div class="col-12 col-lg-4">
+         <div class="p-3">
+           <h5 class="mb-0">245.65</h5>
+         <small class="mb-0">Pages/Visit <span> <i class="fa fa-arrow-up"></i> 5.62%</span></small>
+         </div>
+       </div>
+     </div>
+     
+    </div>
+   </div>
+
+     <div class="col-12 col-lg-4 col-xl-4">
+        <div class="card">
+           <div class="card-header">Weekly sales
+             <div class="card-action">
+             <div class="dropdown">
+             <a href="javascript:void();" class="dropdown-toggle dropdown-toggle-nocaret" data-toggle="dropdown">
+              <i class="icon-options"></i>
+             </a>
+              <div class="dropdown-menu dropdown-menu-right">
+              <a class="dropdown-item" href="javascript:void();">Action</a>
+              <a class="dropdown-item" href="javascript:void();">Another action</a>
+              <a class="dropdown-item" href="javascript:void();">Something else here</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="javascript:void();">Separated link</a>
+               </div>
+              </div>
+             </div>
+           </div>
+           <div class="card-body">
+         <div class="chart-container-2">
+               <canvas id="chart2"></canvas>
+        </div>
+           </div>
+           <div class="table-responsive">
+             <table class="table align-items-center">
+               <tbody>
+                 <tr>
+                   <td><i class="fa fa-circle text-white mr-2"></i> Direct</td>
+                   <td>$5856</td>
+                   <td>+55%</td>
+                 </tr>
+                 <tr>
+                   <td><i class="fa fa-circle text-light-1 mr-2"></i>Affiliate</td>
+                   <td>$2602</td>
+                   <td>+25%</td>
+                 </tr>
+                 <tr>
+                   <td><i class="fa fa-circle text-light-2 mr-2"></i>E-mail</td>
+                   <td>$1802</td>
+                   <td>+15%</td>
+                 </tr>
+                 <tr>
+                   <td><i class="fa fa-circle text-light-3 mr-2"></i>Other</td>
+                   <td>$1105</td>
+                   <td>+5%</td>
+                 </tr>
+               </tbody>
+             </table>
+           </div>
+         </div>
+     </div>
+  </div><!--End Row-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!--start overlay-->
+		  <div class="overlay toggle-menu"></div>
+		<!--end overlay-->
+	
+    </div>
+    <!-- End container-fluid-->
+   </div><!--End content-wrapper-->
+   <!--Start Back To Top Button-->
+    <a href="javaScript:void();" class="back-to-top"><i class="fa fa-angle-double-up"></i> </a>
+    <!--End Back To Top Button-->
+	
+	<!--Start footer-->
+	
+	<!--End footer-->
+	
+   
+  </div><!--End wrapper-->
+
+
+  <!-- Bootstrap core JavaScript-->
+  <script src="{% static 'diagnosis/assets/js/jquery.min.js'%}"></script>
+  <script src="{% static 'diagnosis/assets/js/popper.min.js'%}"></script>
+  <script src="{% static 'diagnosis/assets/js/bootstrap.min.js'%}"></script>
+	
+  <!-- simplebar js -->
+  <script src="{% static 'diagnosis/assets/plugins/simplebar/js/simplebar.js'%}"></script>
+  <!-- sidebar-menu js -->
+  <script src="{% static 'diagnosis/assets/js/sidebar-menu.js'%}"></script>
+  
+  <!-- Custom scripts -->
+  <script src="{% static 'diagnosis/assets/js/app-script.js'%}"></script>
+
+
+  <!-- loader scripts -->
+  <script src="{% static 'diagnosis/assets/js/jquery.loading-indicator.js'%}"></script>
+
+  <!-- Chart js -->
+  
+  <script src="{% static 'diagnosis/assets/plugins/Chart.js/Chart.min.js'%}"></script>
+ 
+  <!-- Index js -->
+  <script src="{% static 'diagnosis/assets/js/index.js'%}"></script>
+	
+</body>
+</html>
